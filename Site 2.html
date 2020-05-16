@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<div style="scroll-behavior: smooth; font-family:'Quartz'; position: sticky">
+	<div class="topnav" align="right">
+		<a class="active" href="#home">Home</a>
+		<a href="#Mens">Mens</a>
+		<a href="#Womens">Womens</a>
+		<a href="#Accessories">Accessories</a>
+		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+	  </div>
+	
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="Login img.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required autocomplete="off">
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required autocomplete="off" >
+        
+      <button type="submit" onclick="window.location.href='Site 2.html';">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="rememberme"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:rgba(94,94,94,0.46); border: rgba(0,0,0,1.00)">
+      <button onclick="window.location.href='RegForm.html';" type="button" class="registerbtn">REGISTER</button>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">CANCEL</button>
+      <span class="psw">Forgot <a href="#" style="color: rgba(255,142,0,1.00)">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+	
+	
+	
+	
+	
+	
+	
+	<head>
+    	<title>DAMMS</title>
+		
+		<link href="Attributes.css" rel="stylesheet" type="text/css">  
+		<link rel = "icon" href = "sp1.png" type = "image/x-icon">
+		<div id="Video" style="position: relative;">
+			<video autoplay muted loop src="1s.mp4" type="video/mp4" style="position: absolute;" width="100%"></video>
+			<a href="Creator.html" alt="Creators" target="_top">
+    			<img src="pixel.png" usemap="#videomap" style="position: absolute;" alt="Screen" width="100%">
+			</a>
+		</div>
+	</head>
+	
+<body bgcolor="#000000">
+	<img src="Pixel.png" alt="" width="100%">
+    <a href="Mens  Section/tshirts.html" id="Mens" class="Sub">
+		<img src="Men.png" alt="Mens" width="100%">
+	</a>
+    <a href="Dresses.html" id="Womens">
+		<img src="Womens.png" alt="Womens" width="100%">
+	</a>
+    <a href="" id="Accessories">
+		<img src="Accessories.png" alt="Accessories" width="100%">
+	</a>
+	
+	
+	<div style="color: white; font: Quartz; text-align: center">
+		<table>
+			
+		</table>
+	</div>
+	
+	
+	<div style="color:rgba(154,154,154,0.30); font-size: 10px; text-align: center">
+	Website made by the <span style="color:rgba(255,196,68,0.4)">DAMMS</span> Group of Amrita Vishwa Vidyapeetham, Ettimadai, Coimbatore. exclusive creative rights reserved to the owner.
+	</div>
+  </body></div>
+</html>
